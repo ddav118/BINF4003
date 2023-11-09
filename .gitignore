@@ -1,2 +1,5 @@
 discharge.csv
-/data
+data/
+*.csv
+*.txt
+*.zip
