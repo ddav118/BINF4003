@@ -11,6 +11,9 @@
 │
 ├── src
 │   ├── cindy
+│   │   ├── rename.ipynb                 - organizing files for cui comparisons
+│   │   ├── delete_files.ipynb           - organizing files for cui comparisons
+│   │   ├── cui_compare.ipynb            - converts manual annotation concept_id to UMLS CUI's - used for Midpoint Presentation
 │   ├── david
 │   │   ├── 1-multiprocessed.py          - cleans input text, runs MetaMap on input text, and writes output data/{patient_id}.txt files
 │   │   ├── 2-clean_mm_output.py         - cleans the pyMetaMap output into csv format
@@ -21,7 +24,6 @@
 │   │   │   ├── fix_files.py             - removes empty data/{patient_id}.txt files
 │   │   │   ├── pymetamap_test.ipynb     - gets list of data/{patient_id}.txt files
 │   ├── elizabeth
-|
 ├── BRAT_config
 │   ├── annotation.conf                  - defines annotation types
 │   ├── visual.conf                      - defines visual attributes for annotation types
