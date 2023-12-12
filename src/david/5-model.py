@@ -211,7 +211,6 @@ def mostSimilarFast(i, usersPerItem, itemsPerUser, k=5):
 
 from collections import Counter
 
-# get 1000 patients from X_test
 # for each patient, calculate the most similar patients based on symptoms
 # for each similar patient, calculate the most similar diseases based on diseases
 # aggregate the similarity scores for each disease
@@ -273,8 +272,6 @@ from collections import Counter
 from tqdm import tqdm
 from joblib import Parallel, delayed
 
-
-# Assuming X_test is a DataFrame loaded or defined previously
 X_test = X_test[["subject_id", "preferred_name", "score"]]
 patients = X_test.subject_id.unique()
 
