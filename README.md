@@ -6,7 +6,8 @@
 ├── README.md
 ├── .gitignore
 ├── data
-│   ├── {patient_id}.txt                 - MetaMap output for each patient
+│   ├── {patient_id}.txt                 - pyMetaMap output for each patient
+│   ├── {patient_id}.csv                 - parse the gross pyMetaMap output into clean csv files for each patient
 │
 ├── src
 │   ├── cindy
