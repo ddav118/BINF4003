@@ -273,14 +273,13 @@ from collections import Counter
 from tqdm import tqdm
 from joblib import Parallel, delayed
 
-# Assuming these functions and dictionaries are defined elsewhere
 
 # Assuming X_test is a DataFrame loaded or defined previously
 X_test = X_test[["subject_id", "preferred_name", "score"]]
 patients = X_test.subject_id.unique()
 
 
-# Define a function to be parallelized for each patient
+# function to be parallelized for each patient
 def process_patient(patient):
     test_sim_pats = mostSimilarFast(patient, symptomsPerPatient, patientsPerSymptom)
     disease_frequency = Counter()
