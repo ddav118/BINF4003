@@ -1,5 +1,8 @@
 # BINF 4008: Symbolic Methods - Final Project
-
+## Computational Requirements
+- Linux Distribution
+- MIMIC-IV Note Access
+- 128GB RAM (5-models.py uses >90GB RAM)
 ## Repository Structure
 
 ```bash
