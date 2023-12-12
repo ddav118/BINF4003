@@ -31,5 +31,3 @@
 ```
 
 ### Project Members: Elizabeth Chang, Hsi-Yu Chen, David Davila-Garcia
-
-*equal contribution
