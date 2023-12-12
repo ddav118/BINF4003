@@ -31,6 +31,14 @@ metamap.sort_values(by=["storetime"], inplace=True)
 metamap.reset_index(drop=True, inplace=True)
 
 display(metamap)
+# modify the preferred_name column to add the negex value
+metamap["preferred_name"] = metamap["preferred_name"].astype(str)
+metamap["preferred_name"] = np.where(
+    metamap.negex == 1,
+    metamap.preferred_name + " (NEGATED)",
+    metamap.preferred_name,
+)
+metamap["preferred_name"].value_counts()
 
 # Make dictionary with subject_id as key and list of ICD codes as values
 # find set of unique combinations of subject_ids, hadm_ids from metamap
