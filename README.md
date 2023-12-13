@@ -29,7 +29,7 @@
 │   ├── elizabeth
 │   │   ├── analysis.ipynb               - analysis of interannotator agreement, manual mappings vs metamap
 │   │   ├── clean_ann_files.py           - cleans brat ann files into csv
-│   │   ├── clean_metamap_output.py      - cleans metamap output into csv (includes CUI, trigger text, negex)
+│   │   ├── clean_metamap_output.py      - cleans metamap output into csv (includes CUI, trigger text, negex), adapted from david's code
 │   │   ├── map_icd_codes.py             - maps ICD-9 codes to ICD-10
 ├── BRAT_config
 │   ├── annotation.conf                  - defines annotation types
