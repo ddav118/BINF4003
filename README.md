@@ -27,6 +27,10 @@
 │   │   │   ├── fix_files.py             - removes empty data/{patient_id}.txt files
 │   │   │   ├── pymetamap_test.ipynb     - gets list of data/{patient_id}.txt files
 │   ├── elizabeth
+│   │   ├── analysis.ipynb               - analysis of interannotator agreement, manual mappings vs metamap
+│   │   ├── clean_ann_files.py           - cleans brat ann files into csv
+│   │   ├── clean_metamap_output.py      - cleans metamap output into csv (includes CUI, trigger text, negex)
+│   │   ├── map_icd_codes.py             - maps ICD-9 codes to ICD-10
 ├── BRAT_config
 │   ├── annotation.conf                  - defines annotation types
 │   ├── visual.conf                      - defines visual attributes for annotation types
