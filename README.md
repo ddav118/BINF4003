@@ -3,6 +3,7 @@
 - Linux Distribution
 - MIMIC-IV Note Access
 - 128GB RAM (5-models.py uses >90GB RAM)
+- all .py files with joblib imported use 100% CPU processing power
 ## Repository Structure
 
 ```bash
